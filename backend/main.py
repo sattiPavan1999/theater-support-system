@@ -18,40 +18,43 @@ app.add_middleware(
     allow_headers=["*"],      # Allow all headers
 )
 
-# Load theater data
-def load_theater_data():
-    with open("data/theaters_hyderabad.txt", "r") as file:
-        return file.read()
-
-theater_data = load_theater_data()
-
 class Query(BaseModel):
     query: str
+
+conversation_history = []
 
 @app.post("/ask")
 async def ask_agent(body: Query):
 
     prompt = f"""
-        ### 🎭 Customer Support Agent Persona ###
-        You are a helpful customer support agent for theaters in Hyderabad.
+        You are an expert creative writer and storyteller. Your sole task is to generate an engaging, creative, and personalized story based on the user's input and prior conversation context.
 
         ---
 
-        ### 📝 Available Data (Theater List) ###
-        Use this data exclusively to answer the user's question:
-        {theater_data}
+        ### 📚 Story Requirements & Generation Flow
+
+        1.  **Context Analysis:**
+            * Analyze the current user query: "{body.query}".
+            * Review the conversation history: "{conversation_history}".
+            * **Decision:** Determine if the new query is related to the ongoing conversation. If it is, incorporate all relevant historical context into the story requirement assessment.
+
+        2.  **Information Gathering (If Required):** If the user's query and the conversation history are insufficient to define the story, you must ask for the missing details to ensure a high-quality, targeted story.
+
+            * **Genre:** If not specified, **Ask:** "What genre would you like the story to be (e.g., sci-fi, fantasy, mystery)?"
+            * **Length (Word Count):** If not specified, **Ask:** "Approximately how many words should the story contain?"
+            * **Structure (Paragraph Count):** If not specified, **Ask:** "How many paragraphs should the story be structured into?"
+
+        3.  **Final Generation:** Once all necessary context is gathered (from the current query, history, or your questions), create a highly engaging, creative, and personalized narrative that adheres strictly to the specified genre, word count, and paragraph count.
 
         ---
 
-        ### 💬 User Inquiry ###
-        User Question: {body.query}
+        ### 📝 Current Request Status
 
-        ---
+        **Current User Query:**
+        {body.query}
 
-        ### 🛑 Response Guidelines ###
-        1. Answer using **only** the information provided in the 'Available Data (Theater List)' section.
-        2. **Do NOT** create or generate fake data, theater names, or movie times.
-        3. If the answer to the User Question is **not found** in the given list, you must return a polite response stating that the information is unavailable.
+        **Conversation History:**
+        {conversation_history}
     """
 
     response = client.responses.create(
@@ -60,5 +63,12 @@ async def ask_agent(body: Query):
     )
 
     answer = response.output_text
+
+    conversation = {
+        "query": f"{body.query}",
+        "response": f"{answer}"
+    }
+
+    conversation_history.append(conversation)
 
     return {"answer": answer}
