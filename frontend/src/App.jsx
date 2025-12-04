@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>🎬 Hyderabad Theater Support</h1>
+      <h1>🎬 Theater Support</h1>
 
       <input
         type="text"

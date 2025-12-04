@@ -1,35 +1,538 @@
-THEATER NAME: PVR Cinemas Inorbit Mall
-LOCATION: HITEC City
-SCREENS: 6
-FACILITIES: Recliners, Dolby Atmos, Parking
-NOTES: Opens at 9 AM
+[
+  {
+    "name": "AMB Cinemas",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Salaar", "timings": ["10:00", "13:30", "17:00", "20:30"] },
+      "2": { "movie": "Hanuman", "timings": ["09:45", "13:00", "16:15", "19:30", "22:45"] },
+      "3": { "movie": "Hi Nanna", "timings": ["10:15", "14:00", "17:45", "21:15"] },
+      "4": { "movie": "Animal", "timings": ["09:30", "12:45", "16:00", "19:20"] },
+      "5": { "movie": "Salaar", "timings": ["11:00", "14:30", "18:00", "21:30"] },
+      "6": { "movie": "Dunki", "timings": ["10:20", "13:40", "17:10", "20:40"] },
+      "7": { "movie": "Jailer", "timings": ["09:50", "13:10", "16:40", "20:10"] }
+    }
+  },
 
-THEATER NAME: AMB Cinemas
-LOCATION: Gachibowli
-SCREENS: 7
-FACILITIES: IMAX, 4DX, Premium seating
-NOTES: Celebrity-owned luxury theater
+  {
+    "name": "Prasads Multiplex",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "IMAX – Salaar", "timings": ["10:00", "14:00", "18:00", "21:45"] },
+      "2": { "movie": "Hanuman", "timings": ["09:30", "12:30", "15:40", "18:45", "22:00"] },
+      "3": { "movie": "Eagle", "timings": ["10:15", "13:30", "16:45", "20:00"] },
+      "4": { "movie": "Extra Ordinary Man", "timings": ["09:45", "13:00", "16:15", "19:30"] },
+      "5": { "movie": "Goodachari 2", "timings": ["10:00", "13:10", "16:20", "19:40"] }
+    }
+  },
 
-THEATER NAME: Asian M Cube
-LOCATION: Attapur
-SCREENS: 5
-FACILITIES: Dolby Atmos, Food court
-NOTES: Good for families
+  {
+    "name": "PVR Inorbit Mall",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Hi Nanna", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+      "2": { "movie": "Salaar", "timings": ["11:00", "14:00", "17:00", "20:00"] },
+      "3": { "movie": "Dunki", "timings": ["09:45", "12:45", "15:45", "18:45"] },
+      "4": { "movie": "Animal", "timings": ["10:30", "13:30", "16:30", "19:30"] }
+    }
+  },
 
-THEATER NAME: Cinepolis Manjeera Mall
-LOCATION: Kukatpally
-SCREENS: 7
-FACILITIES: 3D, Recliners, Online booking
-NOTES: Popular for weekend shows
+  {
+    "name": "Asian M Cube",
+    "state": "Telangana",
+    "city": "Attapur",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Guntur Kaaram", "timings": ["10:00", "13:15", "16:30", "19:45"] },
+      "2": { "movie": "Hanuman", "timings": ["10:20", "13:40", "17:00", "20:20"] },
+      "3": { "movie": "Dunki", "timings": ["09:50", "13:00", "16:10", "19:20"] }
+    }
+  },
 
-THEATER NAME: Inox GVK One Mall
-LOCATION: Banjara Hills
-SCREENS: 5
-FACILITIES: Dolby Atmos, Comfortable seating
-NOTES: Premium shopping mall theater
+  {
+    "name": "Sudarshan 35mm",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Guntur Kaaram",
+        "timings": ["10:00", "13:30", "17:00", "20:30"]
+      }
+    }
+  },
 
-THEATER NAME: Prasads Multiplex
-LOCATION: Necklace Road
-SCREENS: 8
-FACILITIES: IMAX, 3D, Food court, Large parking
-NOTES: Most visited theater in Hyderabad
+  {
+    "name": "Sandhya 70mm",
+    "state": "Telangana",
+    "city": "RTC X Roads",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Salaar",
+        "timings": ["09:30", "13:00", "16:30", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Rama Krishna 70mm",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hanuman",
+        "timings": ["10:15", "13:45", "17:15", "20:45"]
+      }
+    }
+  },
+
+  {
+    "name": "Inox GVK Mall",
+    "state": "Telangana",
+    "city": "Banjara Hills",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Dunki", "timings": ["10:00", "13:20", "16:40", "20:00"] },
+      "2": { "movie": "Animal", "timings": ["09:45", "13:00", "16:15", "19:30"] },
+      "3": { "movie": "Guntur Kaaram", "timings": ["11:00", "14:20", "17:40", "21:00"] }
+    }
+  },
+
+  {
+    "name": "Mahalakshmi Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Vijayawada",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hi Nanna",
+        "timings": ["10:00", "13:30", "17:00", "20:30"]
+      }
+    }
+  },
+
+  {
+    "name": "Velocity Multiplex",
+    "state": "Andhra Pradesh",
+    "city": "Vijayawada",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Salaar", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+      "2": { "movie": "Hanuman", "timings": ["10:15", "13:15", "16:15", "19:15"] },
+      "3": { "movie": "Eagle", "timings": ["09:45", "12:45", "15:45", "18:45"] }
+    }
+  },
+
+  {
+    "name": "Kinnera Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Vijayawada",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Animal",
+        "timings": ["09:30", "13:00", "16:30", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Gala Multiplex",
+    "state": "Andhra Pradesh",
+    "city": "Visakhapatnam",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Salaar", "timings": ["10:00", "13:30", "17:00", "20:30"] },
+      "2": { "movie": "Hanuman", "timings": ["09:45", "13:00", "16:15", "19:30"] },
+      "3": { "movie": "Dunki", "timings": ["11:00", "14:20", "17:40", "21:00"] }
+    }
+  },
+
+  {
+    "name": "Mohan Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Rajahmundry",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Guntur Kaaram",
+        "timings": ["10:00", "13:30", "17:00", "20:30"]
+      }
+    }
+  },
+
+  {
+    "name": "Devi Multiplex",
+    "state": "Andhra Pradesh",
+    "city": "Rajahmundry",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Dunki", "timings": ["10:00", "13:15", "16:30", "19:45"] },
+      "2": { "movie": "Animal", "timings": ["09:50", "13:00", "16:10", "19:20"] }
+    }
+  },
+
+  {
+    "name": "Aries Cinemas",
+    "state": "Andhra Pradesh",
+    "city": "Kakinada",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Hanuman", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+      "2": { "movie": "Salaar", "timings": ["11:00", "14:00", "17:00", "20:00"] },
+      "3": { "movie": "Eagle", "timings": ["09:45", "12:45", "15:45", "18:45"] }
+    }
+  },
+
+  {
+    "name": "Satyam Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Guntur",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hi Nanna",
+        "timings": ["10:00", "13:20", "16:40", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Cinepolis Mangalagiri",
+    "state": "Andhra Pradesh",
+    "city": "Mangalagiri",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Dunki", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+      "2": { "movie": "Guntur Kaaram", "timings": ["10:30", "13:30", "16:30", "19:30"] }
+    }
+  },
+
+  ,
+  {
+    "name": "Leela Mahal",
+    "state": "Andhra Pradesh",
+    "city": "Visakhapatnam",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Animal",
+        "timings": ["10:00", "13:30", "17:00", "20:30"]
+      }
+    }
+  },
+
+  {
+    "name": "Jagadamba Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Visakhapatnam",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Salaar",
+        "timings": ["09:45", "13:00", "16:30", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Melody 70mm",
+    "state": "Telangana",
+    "city": "Secunderabad",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hanuman",
+        "timings": ["10:15", "13:45", "17:15", "20:45"]
+      }
+    }
+  },
+
+  {
+    "name": "Shiva Parvathi Theatre",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Guntur Kaaram",
+        "timings": ["10:00", "13:20", "16:40", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "PVR Punjagutta",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Hi Nanna", "timings": ["10:00", "13:10", "16:20", "19:30"] },
+      "2": { "movie": "Salaar", "timings": ["11:00", "14:15", "17:30", "20:45"] },
+      "3": { "movie": "Dunki", "timings": ["09:30", "12:30", "15:45", "19:00"] }
+    }
+  },
+
+  {
+    "name": "Asian S2 Cinemas",
+    "state": "Andhra Pradesh",
+    "city": "Kakinada",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Hanuman", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+      "2": { "movie": "Guntur Kaaram", "timings": ["10:30", "13:30", "16:30", "19:30"] },
+      "3": { "movie": "Hi Nanna", "timings": ["11:00", "14:00", "17:00", "20:00"] }
+    }
+  },
+
+  {
+    "name": "PVR Guntur",
+    "state": "Andhra Pradesh",
+    "city": "Guntur",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Dunki", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+      "2": { "movie": "Eagle", "timings": ["09:45", "12:45", "15:45", "18:45"] }
+    }
+  },
+
+  {
+    "name": "Sridevi Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Nellore",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Animal",
+        "timings": ["09:30", "13:00", "16:30", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Rama Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Tirupati",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hi Nanna",
+        "timings": ["10:00", "13:20", "16:40", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "PVR Forum Mall",
+    "state": "Andhra Pradesh",
+    "city": "Vijayawada",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Salaar", "timings": ["10:00", "13:15", "16:30", "19:45"] },
+      "2": { "movie": "Hanuman", "timings": ["09:45", "13:00", "16:15", "19:30"] },
+      "3": { "movie": "Dunki", "timings": ["11:00", "14:15", "17:30", "20:45"] }
+    }
+  },
+
+  {
+    "name": "Arjun Theatre",
+    "state": "Andhra Pradesh",
+    "city": "Anantapur",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Guntur Kaaram",
+        "timings": ["10:00", "13:20", "16:40", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Sangeeth Theatre",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Dunki",
+        "timings": ["10:15", "13:30", "16:45", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "Maya Multiplex",
+    "state": "Telangana",
+    "city": "Warangal",
+    "type": "Multiplex",
+    "screens": {
+      "1": { "movie": "Salaar", "timings": ["10:00", "13:20", "16:40", "20:00"] },
+      "2": { "movie": "Hi Nanna", "timings": ["10:30", "13:45", "17:00", "20:15"] }
+    }
+  },
+
+  {
+    "name": "Asian Lakshmi Kala",
+    "state": "Telangana",
+    "city": "Warangal",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hanuman",
+        "timings": ["10:00", "13:30", "17:00", "20:30"]
+      }
+    }
+  },
+
+  {
+    "name": "Bhavani Theatre",
+    "state": "Telangana",
+    "city": "Karimnagar",
+    "type": "Single Screen",
+    "screens": {
+      "1": {
+        "movie": "Hi Nanna",
+        "timings": ["10:00", "13:20", "16:40", "20:00"]
+      }
+    }
+  },
+
+  {
+    "name": "INOX Karimnagar",
+       "state": "Telangana",
+       "city": "Karimnagar",
+       "type": "Multiplex",
+       "screens": {
+         "1": { "movie": "Animal", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+         "2": { "movie": "Dunki", "timings": ["10:30", "13:30", "16:30", "19:30"] }
+       }
+     },
+
+     {
+       "name": "Sivaparvathi Theatre",
+       "state": "Telangana",
+       "city": "Nizamabad",
+       "type": "Single Screen",
+       "screens": {
+         "1": {
+           "movie": "Salaar",
+           "timings": ["09:45", "13:00", "16:30", "20:00"]
+         }
+       }
+     },
+
+     {
+       "name": "PVR Nizamabad",
+       "state": "Telangana",
+       "city": "Nizamabad",
+       "type": "Multiplex",
+       "screens": {
+         "1": { "movie": "Hanuman", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+         "2": { "movie": "Hi Nanna", "timings": ["10:30", "13:30", "16:30", "19:30"] }
+       }
+     },
+
+     {
+       "name": "Venkateswara Theatre",
+       "state": "Andhra Pradesh",
+       "city": "Kurnool",
+       "type": "Single Screen",
+       "screens": {
+         "1": {
+           "movie": "Eagle",
+           "timings": ["10:00", "13:15", "16:30", "19:45"]
+         }
+       }
+     },
+
+     {
+       "name": "SPICE Cinemas",
+       "state": "Andhra Pradesh",
+       "city": "Kurnool",
+       "type": "Multiplex",
+       "screens": {
+         "1": { "movie": "Salaar", "timings": ["10:00", "13:15", "16:30", "19:45"] },
+         "2": { "movie": "Hanuman", "timings": ["09:45", "13:00", "16:15", "19:30"] },
+         "3": { "movie": "Dunki", "timings": ["11:00", "14:15", "17:30", "20:45"] }
+       }
+     },
+
+     {
+       "name": "Satyam 70mm",
+       "state": "Andhra Pradesh",
+       "city": "Ongole",
+       "type": "Single Screen",
+       "screens": {
+         "1": {
+           "movie": "Guntur Kaaram",
+           "timings": ["10:00", "13:30", "17:00", "20:30"]
+         }
+       }
+     },
+
+     {
+       "name": "Arjun Complex Cinemas",
+       "state": "Andhra Pradesh",
+       "city": "Ongole",
+       "type": "Multiplex",
+       "screens": {
+         "1": { "movie": "Dunki", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+         "2": { "movie": "Animal", "timings": ["10:30", "13:30", "16:30", "19:30"] }
+       }
+     },
+
+     {
+       "name": "Sri Venkateswara Talkies",
+       "state": "Andhra Pradesh",
+       "city": "Machilipatnam",
+       "type": "Single Screen",
+       "screens": {
+         "1": {
+           "movie": "Salaar",
+           "timings": ["09:45", "13:00", "16:30", "20:00"]
+         }
+       }
+     },
+
+     {
+       "name": "Carnival Cinemas",
+       "state": "Andhra Pradesh",
+       "city": "Machilipatnam",
+       "type": "Multiplex",
+       "screens": {
+         "1": { "movie": "Hanuman", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+         "2": { "movie": "Hi Nanna", "timings": ["10:30", "13:30", "16:30", "19:30"] }
+       }
+     },
+
+     {
+       "name": "Sri Rama Theatre",
+       "state": "Andhra Pradesh",
+       "city": "Eluru",
+       "type": "Single Screen",
+       "screens": {
+         "1": {
+           "movie": "Dunki",
+           "timings": ["10:00", "13:30", "17:00", "20:30"]
+         }
+       }
+     },
+
+     {
+       "name": "Asian Eluru Mall",
+       "state": "Andhra Pradesh",
+       "city": "Eluru",
+       "type": "Multiplex",
+       "screens": {
+         "1": { "movie": "Eagle", "timings": ["10:00", "13:00", "16:00", "19:00"] },
+         "2": { "movie": "Salaar", "timings": ["11:00", "14:00", "17:00", "20:00"] }
+       }
+     }
+]
