@@ -1,0 +1,35 @@
+THEATER NAME: PVR Cinemas Inorbit Mall
+LOCATION: HITEC City
+SCREENS: 6
+FACILITIES: Recliners, Dolby Atmos, Parking
+NOTES: Opens at 9 AM
+
+THEATER NAME: AMB Cinemas
+LOCATION: Gachibowli
+SCREENS: 7
+FACILITIES: IMAX, 4DX, Premium seating
+NOTES: Celebrity-owned luxury theater
+
+THEATER NAME: Asian M Cube
+LOCATION: Attapur
+SCREENS: 5
+FACILITIES: Dolby Atmos, Food court
+NOTES: Good for families
+
+THEATER NAME: Cinepolis Manjeera Mall
+LOCATION: Kukatpally
+SCREENS: 7
+FACILITIES: 3D, Recliners, Online booking
+NOTES: Popular for weekend shows
+
+THEATER NAME: Inox GVK One Mall
+LOCATION: Banjara Hills
+SCREENS: 5
+FACILITIES: Dolby Atmos, Comfortable seating
+NOTES: Premium shopping mall theater
+
+THEATER NAME: Prasads Multiplex
+LOCATION: Necklace Road
+SCREENS: 8
+FACILITIES: IMAX, 3D, Food court, Large parking
+NOTES: Most visited theater in Hyderabad
